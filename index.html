@@ -1,0 +1,44 @@
+<html>
+  <head>
+
+    <title>Weather App</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <span id="errorMessage"></span>
+      <div class="loader"></div>
+      <div class="inner-container">
+        <header>
+          <span id="weatherDescription"></span>
+          <i class="fa fa-cog settings-icon" id="settings"></i>
+          <ul class="options">
+            <li id="farenheit">&degF</li>
+            <li id="celsius">&degC</li>
+          </ul>
+        </header>
+        <div class="weather-icon">
+          <i id="weatherIcon" class="wi"></i>
+        </div>
+        <div class="temperature-section">
+          <span id="temperature"></span><span id="unit"></span>
+        </div>
+        <footer>
+          <p id="userLocation"></p>
+        </footer>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://use.fontawesome.com/d0c3a87dba.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>
